@@ -80,7 +80,7 @@ const LoginContainer = ({ history }: RouteComponentProps) => {
                         <Field light type={'password'} label={'Password'} name={'password'} disabled={isSubmitting} />
                     </div>
                     <div css={tw`mt-6`}>
-                        <Button type={'submit'} size={'xlarge'} isLoading={isSubmitting} disabled={isSubmitting}>
+                        <Button type={'submit'} size={'xlarge'} isLoading={isSubmitting} disabled={isSubmitting} css={tw`bg-red-500 hover:bg-red-600 text-white`}>
                             Login
                         </Button>
                     </div>
