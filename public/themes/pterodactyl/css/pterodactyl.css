@@ -69,17 +69,15 @@
 }
 
 .pterodactyl-login-button--main {
-    background: rgba(0, 0, 0, 0.4);
-    border: 1px solid #000;
-    border-radius: 2px;
-    color: #fff;
+    background: #10b981 !important;   /* green */
+    border: 1px solid #059669 !important;
+    color: #fff !important;
 }
 
 .pterodactyl-login-button--main:hover {
-    background: rgba(0, 0, 0, 0.7);
-    border: 1px solid #000;
-    border-radius: 2px;
-    color: #fff;
+    background: #059669 !important;   /* darker green on hover */
+    border: 1px solid #047857 !important;
+    color: #fff !important;
 }
 
 .pterodactyl-login-button--left {
